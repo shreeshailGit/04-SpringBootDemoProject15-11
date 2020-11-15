@@ -2,6 +2,11 @@ package com.codingtips.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+/*15-11-2020
+ * 
+ *  author
+ *  by shreeshail*/
 @Component
 public class Car {
     @Autowired
