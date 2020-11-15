@@ -12,6 +12,9 @@ public class Car {
     @Autowired
 	private IEngine eng;
 	
+    public void start() {
+    	//changes for HIS-122
+    }
 	
 	/*
 	 * changes for HIS-134
