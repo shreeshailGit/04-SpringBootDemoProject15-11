@@ -13,7 +13,11 @@ public class Car {
 	private IEngine eng;
 	
 	
-	
+	/*
+	 * changes for HIS-134
+	 * 
+	 * autowired programme for
+	 *  both setter & constrctor*/
 	/*public Car(IEngine eng) {
 		this.eng=eng;
 		System.out.println("**********Car 1-param constructor(target)");
