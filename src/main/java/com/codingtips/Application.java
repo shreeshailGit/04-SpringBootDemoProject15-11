@@ -8,6 +8,7 @@ import com.codingtips.beans.Car;
 
 @SpringBootApplication
 public class Application {
+    private Map<String,Object> cache = new HashMap<String>();
 
        int a = 10;
 	public static void main(String[] args) {
@@ -15,5 +16,8 @@ public class Application {
 		    Car car =  ctxt.getBean(Car.class);
 		   car.drive();
 	}
+    public void loadDataToCache(){
+        //logic
+   }
 
 }
